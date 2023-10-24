@@ -1,6 +1,6 @@
 # Assignment 1 - Computer Networks (Semester 1, 2023-2024)
 
-![Computer Network]
+[Computer Network]
 
 ## Overview
 
