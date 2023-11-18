@@ -197,7 +197,7 @@ class Client(QtWidgets.QMainWindow):
         self.SetPicture.setGeometry(QtCore.QRect(10, 0, 100, 100))
         font = QtGui.QFont()
         self.SetPicture.setFont(font)
-        self.SetPicture.setStyleSheet("border-image: url(./image/T1.jpeg);\n"
+        self.SetPicture.setStyleSheet("border-image: url(./image/T1_Faker_2023_WC.png);\n"
 "color: white;")
         self.SetPicture.setObjectName("SetPicture")
         self.BtCheckOnline = QtWidgets.QRadioButton(self.centralwidget)

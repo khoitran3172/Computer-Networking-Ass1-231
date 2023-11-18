@@ -48,8 +48,8 @@ class Catcher(QObject):
     
     def catchMsg(self):
         #đọc tín hiệu từ trong socket
-        # sentence = self.connection.recv(1024).decode()
-        sentence = "#CONTENT#"
+        sentence = self.connection.recv(1024).decode()
+        # sentence = "#CONTENT#"
         print(f"From catchMsg: {sentence}")
         #time.sleep(12000)
         if (sentence == "#QUIT#"): 
